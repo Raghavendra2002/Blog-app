@@ -32,7 +32,7 @@ public class PostService {
         postRepository.save(post);
     }
 
-    public List<Post> getAllPosts() {
+    public List<Users> getAllPosts() {
         return postRepository.findAll();
     }
 
